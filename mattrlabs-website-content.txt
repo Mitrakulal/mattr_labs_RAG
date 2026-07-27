@@ -1,0 +1,182 @@
+# mattrlabs — Full Website Content
+
+## Source: https://mattrlabs.online/
+
+
+---
+
+# ===== HOMEPAGE =====
+
+## Overview
+mattrlabs is a full-stack engineering studio — mechanical, electronics, firmware, and AI under one roof. We build intelligent hardware, engineer for clients, and print your parts.
+
+## Tagline
+Intelligent hardware, end to end.
+
+## Description
+mattrlabs designs and ships real products — mechanical, electronics, firmware, and AI under one roof. We build our own hardware, engineer for clients, and make our tools available to anyone building something real.
+
+## What We Do — Three Ways to Work
+
+### 1. Build Products
+Our own intelligent hardware. Flagship: an AI-powered PTZ camera that tracks and frames the action on its own.
+
+### 2. Engineer for You
+Contract engineering across software & computer vision, embedded firmware, electronics, and mechanical / CAD — one team, the whole stack.
+
+### 3. Print Your Parts
+Upload a model, get a price, and we print and ship it. A fast, fair 3D-printing service for makers and businesses.
+
+## Pipeline: From Idea to Intelligent Product
+Most teams stitch together a mechanical firm, an electronics firm, and a software firm. We own the whole chain — the order you actually build a smart device in.
+
+1. **CAD** — Mechanical & enclosure design
+2. **Electronics** — PCB, power, sensors
+3. **Embedded** — Firmware, motor control, edge AI
+4. **AI** — Computer vision & intelligence
+
+## Flagship Product
+An AI-powered PTZ camera: it pans, tilts, and zooms — and the computer vision keeps a subject tracked and perfectly framed, so one operator (or none) can run a professional-looking feed.
+- In active development. Lining up pilot users.
+
+## Stats Section
+- 4 disciplines: CAD · Electronics · Embedded · AI
+- One team: The whole product, under one roof
+- Build in public: Follow the PTZ camera as it comes together
+
+## 3D Printing Service
+Upload a model, get a price, get it printed.
+1. **Upload** — Send your STL / OBJ / 3MF model.
+2. **Configure** — Material, colour, quality, quantity.
+3. **Print & ship** — We print it and get it to you.
+
+## Contact
+Email: hello@mattrlabs.online
+
+---
+
+# ===== STUDIO (About) Page =====
+
+## The Studio
+A small team that builds complete, intelligent products. mattrlabs turns ideas into working, intelligent hardware. We design the mechanics, the electronics, the firmware, and the AI in one place — and we make our tools, engineering and 3D printing, available to anyone building something real.
+
+## Four Disciplines — Full Coverage
+
+### Software & Computer Vision
+Founding engineer. Full-stack software, AI/ML, and the vision pipelines behind auto-tracking, detection, and auto-framing.
+- On the PTZ camera: The tracking, detection & auto-framing intelligence
+
+### Embedded Systems & Firmware
+Microcontrollers, RTOS, drivers, real-time motor control, sensor fusion, and on-device (edge) AI.
+- Real-time motor & camera control, on-device inference
+
+### Electronics & Hardware
+PCB design, power, signal integrity, and sensors — from schematic to manufacture-ready boards.
+- The main board, power, motor drivers & connectors
+
+### Mechanical, CAD & 3D Printing
+Mechanical design, enclosures, motion mechanisms, DFM, and additive manufacturing.
+- The pan-tilt gimbal, housing, gearing & body
+
+## How the Disciplines Connect
+They're a chain — the exact order you build a smart device in, and we own every link.
+
+## How We Work
+
+1. **We build the whole thing** — Mechanical, electronics, firmware, and AI in one team. Replace three vendors with one that speaks every language.
+2. **We eat our own cooking** — We build our own product (an AI PTZ camera), not just advise. Shipping our own hardware proves we can ship yours.
+3. **Intelligence is the differentiator** — Anyone can bolt a motor to a camera. Our computer vision makes things track, frame, and decide.
+4. **Show, don't claim** — A working demo beats a deck. We'd rather prove it than describe it.
+
+---
+
+# ===== WORK Page =====
+
+## What We're Building
+We build in public. Our own hardware is the first thing to point at — and client case studies land here as projects wrap.
+
+### In Progress — AI PTZ Camera
+Our flagship: a pan-tilt-zoom camera that tracks and frames a subject on its own. We're designing the gimbal, the board, the firmware, and the vision model in-house — building it in public.
+- Mechanical pan-tilt gimbal + housing
+- Custom main board, power & motor drivers
+- Real-time motor control firmware
+- On-device computer-vision auto-tracking
+
+---
+
+# ===== AI PTZ CAMERA (Product) Page =====
+
+## Product Description
+An AI-powered PTZ camera. It pans, tilts, and zooms — and the computer vision keeps your subject tracked and perfectly framed, so one operator (or none) can run a professional-looking feed.
+
+Status: In development.
+
+## What Makes It Smart
+
+### Auto-tracking
+Locks onto a person and follows them around the room — no operator hunting for the shot.
+
+### Auto-framing
+Keeps the subject composed and centred as they move, zooming to hold the frame.
+
+### Pan · Tilt · Zoom
+Smooth motorized movement across a wide range, driven by real-time firmware.
+
+### AI on the Edge
+Vision runs on-device — low latency, no cloud round-trip, works on your network.
+
+### Yours to Customize
+Tune the tracking behaviour for your use-case — or white-label the whole thing.
+
+## Use Cases
+
+1. **Live streaming for small venues** — Churches, lecture halls, local sports — one camera that follows the speaker or the play, so a volunteer (or nobody) runs the stream.
+2. **Hybrid meeting rooms** — Auto-frame whoever's talking so remote participants always see the right person.
+3. **Specialized monitoring** — Labs, livestock, perimeters — tracking plus alerts on what actually matters.
+
+## Target Specs (In Development)
+
+| Feature | Detail |
+|---------|--------|
+| Movement | Pan / tilt / zoom, motorized (range TBD) |
+| Tracking | On-device computer vision, real-time |
+| Compute | Edge AI module (inference on-device) |
+| Video | 1080p / 4K target |
+| Interfaces | IP / USB / HDMI (TBD) |
+| Customization | Tunable tracking; OEM / white-label |
+
+## Pilot Program
+Lining up pilot users to put early units to work and shape v1.
+
+---
+
+# ===== 3D PRINTING Page =====
+
+## Service Description
+Upload a model, get a price. Preview your part in the browser and get a rough estimate in seconds. We confirm the final price and collect your file by email.
+
+## Process
+1. **Upload** — Drop in your STL / OBJ / 3MF model.
+2. **Configure** — Material, colour, quality, infill, quantity.
+3. **Get a price** — See an instant estimate, then request the print.
+
+File formats accepted: .stl, .obj, .3mf
+Note: Your model is previewed in your browser — nothing is uploaded until you submit. Prices shown are a rough estimate; we confirm the final quote by email.
+
+---
+
+# ===== CONTACT Page =====
+
+Contact options:
+- Email: hello@mattrlabs.online
+- Contact form with fields: Company, Name, Email
+- What do you need?: Consultation / engineering, PTZ camera / product, Something else
+- Budget options: Not sure yet, < €1k, €1k – €5k, €5k – €20k, €20k+
+- Timeline options: ASAP, 1–3 months, 3+ months
+
+---
+
+# ===== FOOTER (All Pages) =====
+A full-stack engineering studio building intelligent hardware — mechanical, electronics, firmware, and AI under one roof.
+© 2026 mattrlabs. All rights reserved.
+Contact: hello@mattrlabs.online
