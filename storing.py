@@ -6,7 +6,8 @@ EMBED_MODEL = "nomic-embed-text"
 COLLECTION_NAME="mattrlabs_doc"
 CHORMA_PATH = "./chroma_db"
 
-
+client=chromadb.PersistentClient(path=CHORMA_PATH)
+collection=client.get_or_create_collection(COLLECTION_NAME)
 
 def embed(text: str) -> list[float]:
     """Get a local embedding vector for `text` via Ollama."""
@@ -16,8 +17,7 @@ def embed(text: str) -> list[float]:
 def store_chunks(chunks:list[dict])->None:
     
     """Embed each chunk and store it in chromaDB wiht metada"""
-    client=chromadb.PersistentClient(path=CHORMA_PATH)
-    collection=client.get_or_create_collection(COLLECTION_NAME)
+    
     
     for i , chunk in enumerate(chunks):
         chunk_id = f"{chunk['section'].replace(' ', '_')}-{chunk['chunk_index']}"
