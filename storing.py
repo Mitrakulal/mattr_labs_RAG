@@ -8,11 +8,10 @@ CHORMA_PATH = "./chroma_db"
 
 client=chromadb.PersistentClient(path=CHORMA_PATH)
 collection=client.get_or_create_collection(COLLECTION_NAME)
+ollama_client = ollama.Client(host="http://localhost:11435")
 
 def embed(text: str) -> list[float]:
-    """Get a local embedding vector for `text` via Ollama."""
-    response = ollama.embeddings(model=EMBED_MODEL, prompt=text)
-    return response["embedding"]
+    return ollama_client.embeddings(model="nomic-embed-text:latest", prompt=text)["embedding"]
 
 def store_chunks(chunks:list[dict])->None:
     
