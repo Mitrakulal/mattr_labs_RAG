@@ -16,7 +16,7 @@ app = FastAPI()
 model = init_chat_model(
     model="phi3:latest",
     model_provider="ollama",
-    base_url="http://localhost:11435",  # your Mac Mini
+    base_url="http://localhost:11434",  # your Mac Mini
     temperature=0,
 )
 

@@ -2,3 +2,16 @@ __pycache__/
 *.pyc
 chroma_db/
 .env
+.venv/
+venv/
+
+
+# Logs
+*.log
+logs/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store

@@ -8,7 +8,7 @@ CHORMA_PATH = "./chroma_db"
 
 client=chromadb.PersistentClient(path=CHORMA_PATH)
 collection=client.get_or_create_collection(COLLECTION_NAME)
-ollama_client = ollama.Client(host="http://localhost:11435")
+ollama_client = ollama.Client(host="http://localhost:11434")
 
 def embed(text: str) -> list[float]:
     return ollama_client.embeddings(model="nomic-embed-text:latest", prompt=text)["embedding"]

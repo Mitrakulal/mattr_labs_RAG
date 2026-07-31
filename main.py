@@ -36,7 +36,7 @@ model = init_chat_model(
     model="gemma4:12b-mlx",
     # model="phi3:latest",
     model_provider="ollama",
-    base_url="http://localhost:11435",
+    base_url="http://localhost:11434",
     temperature=0,
 )
 
@@ -63,7 +63,7 @@ async def health(key : str):
 
     # check ollama
     try:
-        test_embed = ollama.Client(host="http://localhost:11435").embeddings(
+        test_embed = ollama.Client(host="http://localhost:11434").embeddings(
             model="nomic-embed-text:latest", prompt="ping"
         )
         health_status["checks"]["ollama"] = "ok"
@@ -88,7 +88,7 @@ async def ask(body: AskRequest):
 
     # step 1: embed
     try:
-        query_embedding = embed(query)
+        query_embedding = await asyncio.to_thread(embed, query)
     except Exception as e:
         print(f"[ERROR] embed failed: {e}")
         log_entry({"query": query, "error": f"embed failed: {e}", "latency_s": round(time.time() - start, 2)})
@@ -96,7 +96,7 @@ async def ask(body: AskRequest):
 
     # step 2: search chroma
     try:
-        results = collection.query(query_embeddings=[query_embedding], n_results=3)
+        results = await asyncio.to_thread(collection.query, query_embeddings=[query_embedding], n_results=3)
     except Exception as e:
         print(f"[ERROR] chroma query failed: {e}")
         log_entry({"query": query, "error": f"chroma query failed: {e}", "latency_s": round(time.time() - start, 2)})
