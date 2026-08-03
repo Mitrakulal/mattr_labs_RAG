@@ -3,12 +3,12 @@ import chromadb
 from spliting import token_length
 
 EMBED_MODEL = "nomic-embed-text"
-COLLECTION_NAME="mattrlabs_doc"
-CHORMA_PATH = "./chroma_db"
+COLLECTION_NAME="mattrlabs_doc1"
+CHORMA_PATH = "./chroma_db1"
 
 client=chromadb.PersistentClient(path=CHORMA_PATH)
 collection=client.get_or_create_collection(COLLECTION_NAME)
-ollama_client = ollama.Client(host="http://localhost:11434")
+ollama_client = ollama.Client(host="http://localhost:11435")
 
 def embed(text: str) -> list[float]:
     return ollama_client.embeddings(model="nomic-embed-text:latest", prompt=text)["embedding"]

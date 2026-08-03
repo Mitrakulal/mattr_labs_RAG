@@ -3,7 +3,7 @@ from storing import embed ,store_chunks
 
 def main():
     
-    SOURCE_FILE="mattrlabs-website-content.txt"
+    SOURCE_FILE="mattrlabs-website-content-enrichment-combined.txt"
     
     full_text=load_source_text(SOURCE_FILE)
     

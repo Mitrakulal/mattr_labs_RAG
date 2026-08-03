@@ -1,0 +1,367 @@
+
+# ===== HOMEPAGE — Additional Details =====
+## route: /
+## page_title: "mattrlabs — intelligent hardware, end to end"
+## meta_description: "mattrlabs is a full-stack engineering studio — mechanical, electronics, firmware, and AI under one roof. We build intelligent hardware, engineer for clients, and print your parts."
+
+## Navigation structure (confirmed, present on every page)
+Main nav links: Studio (/about), What we do (/#services), Products (/products/ptz-camera),
+Work (/work), 3D printing (/3d-printing), Contact (/contact).
+Primary CTA button in the nav bar: "Start a project" (links to /contact).
+
+## Homepage-specific CTAs
+Two CTA buttons directly under the hero headline:
+- "Start a project" → /contact
+- "Get a 3D-print quote" → /3d-printing
+
+A second CTA pair appears near the bottom of the homepage, above the footer:
+- "Start a project" → /contact
+- "Get a 3D-print quote" → /3d-printing
+
+## Hero section label
+Small eyebrow label above the main headline reads: "Full-stack engineering studio"
+
+---
+
+# ===== STUDIO (About) Page — Additional Details =====
+## route: /about
+## page_title: "Studio — mattrlabs"
+## meta_description: "mattrlabs is a compact engineering studio — mechanical, electronics, firmware, and AI under one roof. Meet the team and how we build."
+(Note: this page's meta description uses "compact" rather than "full-stack" —
+both phrasings describe the same studio; treat as interchangeable when matching queries.)
+
+## Studio bench photo
+The About page features a real photo of the studio workspace, captioned:
+"The bench: our PTZ camera prototype running its own control software."
+Image alt text: "The mattrlabs bench — the PTZ camera prototype in front of its
+control software in the lab."
+This confirms the PTZ camera prototype is physically built and actively running
+its control software in-house, not just a concept render.
+
+## Closing CTA on the About page
+Heading: "Want a team like this on your product?"
+Body: "Tell us what you're building — we'll help you ship it."
+CTA button: "Start a project" → /contact
+
+---
+
+# ===== WORK Page — Additional Details =====
+## route: /work
+## page_title: "Work — mattrlabs"
+## meta_description: "What we're building and what we've shipped — starting with our own AI PTZ camera, built in public."
+
+## Page eyebrow label
+Small label above the main heading: "Proof, as we build it"
+
+## Project card label
+The AI PTZ camera project card is explicitly labeled:
+"In progress · Own product · all four domains"
+This confirms it is mattrlabs' own internal product (not a client project) and
+that it spans all four of the studio's disciplines (CAD, Electronics, Embedded, AI).
+
+## Closing section
+Heading: "Your project could be next"
+Body: "We turn finished work into case studies. Bring us something to build."
+CTA: "Start a project" → /contact
+
+---
+
+# ===== AI PTZ CAMERA (Product) Page — Additional Details =====
+## route: /products/ptz-camera
+## page_title: "AI PTZ camera — mattrlabs"
+## meta_description: "An AI-powered pan-tilt-zoom camera that tracks and auto-frames a subject on its own — so one operator, or none, can run a professional-looking feed."
+
+## Page status label
+Eyebrow label at the top of the page: "Product · in development"
+
+## Demo video (confirmed real asset — not previously documented)
+The page includes an actual motion demo video of the camera tracking a subject:
+File: /videos/ptz-motion.mp4
+This is real prototype footage, not a mockup or rendering.
+
+## Prototype photos (real, confirmed)
+Two real photos of the physical prototype are shown:
+1. "PTZ camera prototype, front view on the bench"
+2. "PTZ camera prototype under teal lab lighting"
+Caption under both: "Real prototype footage and photos — the current unit,
+printed and assembled in-house."
+This confirms the camera housing shown is physically 3D-printed and assembled
+by the studio itself (consistent with their in-house 3D printing capability).
+
+## Software screenshots — specific platform confirmed
+The "software, live" section shows real screenshots of the control software
+running during an ACTUAL GOOGLE MEET CALL (not a generic/simulated demo):
+1. Screenshot 1 — alt text: "PTZ control panel auto-framing a speaker during a
+   Google Meet call, with hand-raise detection"
+   Caption: "Auto-framing in a live call — with hand-raise detection flagging
+   who wants to speak."
+2. Screenshot 2 — alt text: "Face-recognition attendance panel detecting people
+   in frame during a live call"
+   Caption: "One-click attendance: on-device face recognition marks who's present."
+
+This confirms two specific software features not elsewhere emphasized as clearly:
+- Hand-raise detection (flags who wants to speak during a call)
+- On-device face-recognition attendance tracking (marks who's present)
+Both were demonstrated live, integrated with Google Meet specifically.
+
+## Real-world deployment photo
+Photo caption: "On location: an early unit running a lecture-hall pilot."
+Alt text: "The PTZ camera deployed on a tripod in a lecture hall with students."
+This confirms: the camera is tripod-mounted in real deployments, and at least
+one early unit has already been piloted in an actual lecture hall with students
+present — this is a real, already-happened pilot deployment, not just a planned
+future one.
+
+## Target specs section — framing note
+The specs table is introduced with: "In development — specs firm up as we move
+from alpha to v1." This confirms the product is currently at "alpha" stage,
+with v1 being the next milestone.
+
+## Closing CTA
+Heading: "Want a camera that runs itself?"
+Body: "We're lining up a handful of pilot users to put early units to work and
+shape v1. Tell us your use-case."
+CTA: "Join the pilot" → /contact
+
+---
+
+# ===== 3D PRINTING Page — Additional Details =====
+## route: /3d-printing
+## page_title: "3D printing — instant quote — mattrlabs"
+## meta_description: "Upload an STL, OBJ, or 3MF model, preview it in your browser, pick your material and settings, and get an instant price estimate."
+
+## Page eyebrow label
+"3D-printing service"
+
+## Upload widget — exact interface copy
+The upload widget itself reads: "Drag & drop your model, or click to choose"
+Directly beneath it: ".stl, .obj, .3mf · up to 50 MB"
+This confirms the 50 MB file size limit is shown directly on the upload
+interface itself, not just in fine print elsewhere.
+
+---
+
+# ===== CONTACT Page — Additional Details =====
+## route: /contact
+## page_title: "Start a project — mattrlabs"
+## meta_description: "Tell us what you're building — a full product, an engineering problem, or a part you need printed. We'll get back to you fast."
+
+## Page heading and intro copy (exact)
+Heading: "Start a project"
+Intro text: "A full product, a tricky engineering problem, or a part you need
+printed — tell us about it and we'll get back to you. Prefer email?
+hello@mattrlabs.online"
+
+## Form field order and exact labels (confirmed)
+1. Company
+2. Name
+3. Email
+4. "What do you need?" — dropdown: Consultation / engineering | 3D printing |
+   PTZ camera / product | Something else
+5. "Budget (optional)" — dropdown: Not sure yet | < €1k | €1k – €5k |
+   €5k – €20k | €20k+
+6. "Timeline (optional)" — dropdown: Not sure yet | ASAP | 1–3 months |
+   3+ months
+7. "Tell us about it" — free-text message area
+8. Submit button labeled: "Send message"
+
+---
+
+# ===== FOOTER — Additional Details (confirmed, shared on all pages) =====
+## route: /
+Footer content is identical across every page:
+- mattrlabs wordmark logo, linking back to homepage
+- Tagline: "A full-stack engineering studio building intelligent hardware —
+  mechanical, electronics, firmware, and AI under one roof."
+- Repeated nav links: Studio, What we do, Products, Work, 3D printing, Contact
+- "Get in touch" heading, followed by: hello@mattrlabs.online
+- Copyright line: "© 2026 mattrlabs. All rights reserved."
+
+---
+
+# ===== FAQ: About the Company =====
+## route: /about, /
+
+Q: What is mattrlabs?
+A: mattrlabs is a full-stack engineering studio that designs and ships real
+products — mechanical, electronics, firmware, and AI — all under one roof.
+
+Q: What does mattrlabs actually do?
+A: mattrlabs works three ways: they build their own intelligent hardware
+products (flagship: an AI-powered PTZ camera), they take on contract
+engineering work across software/computer vision, embedded firmware,
+electronics, and mechanical/CAD, and they offer a 3D-printing service where
+you upload a model and they print and ship it.
+
+Q: Is mattrlabs a big company?
+A: mattrlabs describes itself as "a small team" and "a compact engineering
+studio." The site highlights four core disciplines, each led by a founding
+engineer, rather than describing a large organization.
+
+Q: What makes mattrlabs different from other engineering firms?
+A: Most teams stitch together a separate mechanical firm, electronics firm,
+and software firm. mattrlabs owns the whole chain — CAD, electronics,
+embedded, and AI — in one team, in the order a smart device is actually built.
+
+Q: Does mattrlabs build its own products, or only work for clients?
+A: Both. Their flagship own product is the AI PTZ camera, which they build
+"in public." They also take on contract engineering work for clients, and
+client case studies get added to their Work page as projects wrap.
+
+Q: What are the four disciplines mattrlabs covers?
+A: Software & Computer Vision, Embedded Systems & Firmware, Electronics &
+Hardware, and Mechanical/CAD & 3D Printing. Each has its own founding engineer.
+
+Q: Why should I trust mattrlabs to build my product?
+A: Their own stated reasoning: they build their own hardware product (the PTZ
+camera) rather than only advising — "we eat our own cooking" — and they
+emphasize showing working demos rather than just claiming capability.
+
+---
+
+# ===== FAQ: The AI PTZ Camera =====
+## route: /products/ptz-camera
+
+Q: What is the AI PTZ camera?
+A: An AI-powered pan-tilt-zoom camera that automatically tracks and frames a
+subject, so one operator (or no operator at all) can run a professional-
+looking video feed.
+
+Q: Is the PTZ camera available to buy?
+A: No — it's currently in development (alpha stage, working toward v1).
+mattrlabs is lining up pilot users rather than selling it commercially yet.
+
+Q: How do I get one of the early PTZ cameras?
+A: Apply through the pilot program by using the "Join the pilot" link, which
+goes to the Contact page — tell them your use-case to apply.
+
+Q: What can the PTZ camera actually do?
+A: Five main things: auto-tracking (locks onto and follows a person), auto-
+framing (keeps the subject centred and composed while zooming), motorized
+pan/tilt/zoom movement, on-device edge AI (no cloud round-trip needed), and
+customizable/white-labelable tracking behavior.
+
+Q: Does the PTZ camera need an internet connection to work?
+A: No — its computer vision runs on-device (edge AI), meaning low latency and
+no cloud round-trip; it works on your local network.
+
+Q: What video resolution does the PTZ camera support?
+A: The target spec is 1080p / 4K, though this is still listed as part of the
+in-development target specs, not a finalized/shipping spec.
+
+Q: What are the target specs for the PTZ camera?
+A: Movement: motorized pan/tilt/zoom (exact range still TBD). Tracking:
+on-device real-time computer vision. Compute: an edge AI module (on-device
+inference). Video: 1080p/4K target. Interfaces: IP/USB/HDMI (TBD).
+Customization: tunable tracking, with OEM/white-label options. Note: these are
+explicitly described as still firming up as the product moves from alpha to v1.
+
+Q: What is the PTZ camera used for?
+A: Three main use cases: live streaming for small venues (churches, lecture
+halls, local sports), auto-framing in hybrid meeting rooms so remote
+participants always see the right speaker, and specialized monitoring (labs,
+livestock, perimeters) with tracking plus alerts.
+
+Q: Has the PTZ camera actually been tested anywhere real?
+A: Yes — an early unit has already run a pilot in an actual lecture hall with
+students present, mounted on a tripod. This is a real deployment that has
+already happened, not just a planned future one.
+
+Q: Does the PTZ camera work with video call software like Zoom or Google Meet?
+A: The publicly shown demo specifically shows it running live during a Google
+Meet call, with features like hand-raise detection (flagging who wants to
+speak) and on-device face-recognition attendance tracking. Compatibility with
+other platforms isn't specified on the site.
+
+Q: Can I customize or white-label the PTZ camera?
+A: Yes — the product page explicitly states the tracking behaviour can be
+tuned for your use-case, or the whole product can be white-labelled.
+
+Q: Is there a demo video of the PTZ camera?
+A: Yes — the product page includes real prototype footage showing the camera's
+tracking motion, plus real photos of the physical, in-house printed and
+assembled prototype unit.
+
+Q: Who builds the PTZ camera's tracking and vision features?
+A: The Software & Computer Vision discipline, led by mattrlabs' founding
+engineer in that area, builds the tracking, detection, and auto-framing
+intelligence specifically.
+
+---
+
+# ===== FAQ: 3D Printing Service =====
+## route: /3d-printing
+
+Q: How does the 3D printing service work?
+A: Three steps: upload your model (STL, OBJ, or 3MF), configure it (material,
+colour, quality, infill, quantity), then get an instant price estimate before
+requesting the actual print.
+
+Q: What file formats does mattrlabs accept for 3D printing?
+A: .stl, .obj, and .3mf files.
+
+Q: Is there a file size limit for 3D printing uploads?
+A: Yes — up to 50 MB.
+
+Q: Do I get charged immediately when I upload a model?
+A: No — your model is only previewed in your browser; nothing is uploaded
+until you actually submit. The price shown at that stage is a rough estimate.
+
+Q: Is the instant price quote final?
+A: No — the instant estimate shown in the browser is rough. mattrlabs confirms
+the final price and collects your actual file by email afterward.
+
+Q: How do I actually submit my file for printing?
+A: After previewing your model and getting the rough estimate in-browser, the
+final quote and file collection happens by email — you don't upload the real
+file until that step.
+
+Q: What can I configure when ordering a 3D print?
+A: Material, colour, quality, infill, and quantity.
+
+---
+
+# ===== FAQ: Working With mattrlabs / Contact =====
+## route: /contact
+
+Q: How do I start a project with mattrlabs?
+A: Use the "Start a project" contact form, or email hello@mattrlabs.online
+directly.
+
+Q: What information does the contact form ask for?
+A: Company, Name, Email, what you need (Consultation/engineering, 3D printing,
+PTZ camera/product, or Something else), an optional budget range, an optional
+timeline, and a free-text message describing your project.
+
+Q: What budget ranges does mattrlabs list on their contact form?
+A: Not sure yet, under €1k, €1k–€5k, €5k–€20k, and €20k+.
+
+Q: What timelines does mattrlabs list on their contact form?
+A: Not sure yet, ASAP, 1–3 months, and 3+ months.
+
+Q: Can I just email mattrlabs instead of filling out a form?
+A: Yes — hello@mattrlabs.online is listed as the direct contact email on
+every page, including the contact page itself ("Prefer email?").
+
+Q: What kind of projects can I bring to mattrlabs?
+A: Per their own contact page copy: "a full product, a tricky engineering
+problem, or a part you need printed."
+
+Q: How do I apply for the PTZ camera pilot program?
+A: Through the same Contact page/form — the "Join the pilot" links on the PTZ
+camera product page lead there. You're asked to tell them your use-case to apply.
+
+---
+
+# ===== FAQ: General / Fallback Guidance =====
+## route: /
+
+Q: Does mattrlabs have any published case studies?
+A: The Work page states that client case studies will be added "as projects
+wrap" — the site does not currently list any completed client case studies;
+the only project shown in progress is their own AI PTZ camera.
+
+Q: What is mattrlabs currently building?
+A: Their own AI PTZ camera is the main project shown publicly right now,
+spanning all four of their disciplines (CAD, Electronics, Embedded, AI). They
+describe this as "building in public."

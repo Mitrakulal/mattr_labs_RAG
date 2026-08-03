@@ -14,9 +14,10 @@ from langchain.chat_models import init_chat_model
 from langchain.messages import HumanMessage
 
 BASE_DIR = pathlib.Path(__file__).parent          # gets main.py's folder
-CHROMA_PATH = str(BASE_DIR / "chroma_db") 
-COLLECTION_NAME = "mattrlabs_doc"
+CHROMA_PATH = str(BASE_DIR / "chroma_db1") 
+COLLECTION_NAME = "mattrlabs_doc1"
 LOG_FILE="rag.log"
+OLLAMA_HOST = "http://localhost:11435"
 
 
 app=FastAPI()
@@ -34,9 +35,10 @@ collection = client.get_or_create_collection(COLLECTION_NAME)
 model = init_chat_model(
     # model="gemma4:e4b",
     model="gemma4:12b-mlx",
+    # model="gemma2:9b-instruct-q2_K",
     # model="phi3:latest",
     model_provider="ollama",
-    base_url="http://localhost:11434",
+    base_url=OLLAMA_HOST,
     temperature=0,
 )
 
@@ -63,7 +65,7 @@ async def health(key : str):
 
     # check ollama
     try:
-        test_embed = ollama.Client(host="http://localhost:11434").embeddings(
+        test_embed = ollama.Client(host=OLLAMA_HOST).embeddings(
             model="nomic-embed-text:latest", prompt="ping"
         )
         health_status["checks"]["ollama"] = "ok"
